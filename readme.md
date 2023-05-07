@@ -4,11 +4,11 @@
 * 如果使用 phpStorm IDE，可以安装 `phalcon 5` 插件。
 
 ```
-data/ 数据目录 —— 需要手动创建
+data/ 数据目录 —— 如果不存在则需要手动创建
     |-- mysql
     |-- pgsql
     |-- redis
-log/ 日志目录 —— 需要手动创建
+log/ 日志目录 —— 如果不存在则需要手动创建
     |-- mysql
     |-- nginx
     |-- php

@@ -13,7 +13,7 @@ configs:
 services:
   php:
     container_name: php
-    image: authus/phalcon:7.5
+    image: authus/php:7.4-phalcon
     working_dir: /var/www
     volumes:
       - ./src:${WORK_DIR}:delegated
